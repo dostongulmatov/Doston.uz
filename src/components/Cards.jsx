@@ -8,7 +8,7 @@ const Cards = () => {
       <h1 className="projects-heading">Projects</h1>
       <div className="row">
         <div className="container-for-img col-lg-5">
-          <img className="project-img" src={IcreateImg} width="100%"/>
+          <img className="project-img" src={IcreateImg} alt="..." width="100%"/>
         </div>
         <div className="container-for-project-info col-lg-7">
           <h4 className="projects-heading-container"><a  className="projects-heading" href="https://ICreate.uz">ICreate.uz</a>

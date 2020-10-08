@@ -2,7 +2,6 @@ import React from 'react'
 import {GitIcon, EmailIcon, TeleIcon, InstaIcon, TwitIcon, FaceIcon } from './icons'
 
 
-
 const Footer = () => {
   return (
     <div id="footer-part">
@@ -38,9 +37,9 @@ const Footer = () => {
         </div>
         <div className="comment-area col-lg-5">
           <form>
-            <input type="email" id="txtEmail" class="email-input" placeholder="Email"/><br /><br />
+            <input type="email" id="txtEmail" className="email-input" placeholder="Email"/><br /><br />
             <textarea placeholder="SORRY NOT WORKING FOR NOW PLEASE WRITE TO MY TELEGRAM ACCOUNT. THANK YOU!" id="msg" /><br /><br />
-            <button class="opinion-submit btn btn-sm btn-primary" type="submit">Send Message</button>
+            <button className="opinion-submit btn btn-sm btn-primary" type="submit">Send Message</button>
           </form>
         </div>
 

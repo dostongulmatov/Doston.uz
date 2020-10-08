@@ -25,7 +25,7 @@ const Skills = () => {
           <h5 className="learned-skills col-lg-5">
           React and Redux</h5>
         </div>
-      <img src={skillImg} width="100%" height="300px"/>
+      <img src={skillImg} alt="..." width="100%" height="300px"/>
       </div>
       <div className="education col-lg-6">
         <div>

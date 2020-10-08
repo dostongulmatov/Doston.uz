@@ -16,6 +16,9 @@ body{
   right: 0;
   z-index: 1;
 }
+.nav-link{
+  font-size: 14px;
+}
 .doston-logo{
   margin-left: 6%;
 }
