@@ -1,0 +1,233 @@
+body{
+  background: linear-gradient(to right, #00c6ff, #011936) !important;
+}
+
+/* This is style for home part of Website */
+
+
+#home-section{
+  padding-bottom: 8.5%;
+}
+
+.navbar{
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.doston-logo{
+  margin-left: 6%;
+}
+.middle-link{
+  margin: 0 24%;
+}
+.centered-div{
+  text-align: center;
+  padding: 120px;
+  width: 50%;
+  color: white;
+  margin: 70px 0 0 50%;
+  transform: translate(-50%);
+  animation: changeColor 5s forwards;
+}
+@keyframes changeColor{
+  0%{
+    color: black;
+  }
+  100%{
+    color: #D3D3D3;
+  }
+}
+.doston-img{
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+  animation: changeOpacity 5s forwards;
+}
+@keyframes changeOpacity{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.icon-container{
+  width: 100px;
+  height: 50px;
+}
+.social-icons{
+  padding-right: 10px;
+  display: inline-block;
+  color: #D3D3D3;
+}
+.social-icons:hover{
+  color: black;
+}
+.download-btn{
+  margin-top: 20px;
+}
+.download-btn:hover{
+  background: linear-gradient(to right white, #FFCC00);
+  color: #00c6ff !important;
+  background-color: black !important;
+}
+
+
+/* This is style for Projects part of Website */
+
+
+#projects-section{
+  background-color: #D7E1EC;
+  color:  #011936;
+  padding: 6%;
+}
+.projects-heading{
+  text-align: center;
+  margin-bottom: 3%;
+  color: #011936;
+}
+.projects-heading:hover{
+  color: black;
+  text-decoration: none;
+}
+.projects-heading-container{
+  margin-bottom: 20px;
+}
+.website-describtion-heading{
+  font-size: small;
+  background-color: black;
+  color: #00c6ff;
+  margin-left: 20px;
+  padding: 5px;
+  border: solid 1px black;
+}
+.website-describtion-heading:hover{
+  background-color: #D7E1EC;
+  color: #011936;
+}
+.container-for-img{
+  text-align: center;
+}
+.project-img{
+  height: 350px;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+.container-for-project-info{
+  padding-top: 10px;
+}
+.project-btn{
+  margin: 0 30px 15px 12px;
+}
+
+
+/* This is style for Skills and Edu part of Website */
+
+
+.skills-part{
+  margin: 3% 8%;
+}
+
+.education{
+  color: #D7E1EC;
+}
+.skills-heading{
+  text-align: center;
+  color: white;
+  margin-bottom: 5%;
+}
+.learned-skills{
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #D7E1EC;
+  padding: 20px;
+  margin-right: 30px;
+
+}
+.learned-skills:hover{
+  background-color: black;
+  border: 2px solid white;
+  color: #D7E1EC;
+
+}
+.education-containers{
+  display: inline-block;
+}
+.education-box{
+  padding: 12px;
+  border: #D3D3D3 solid 2px;
+  border-radius: 5px;
+}
+.education-box:hover{
+  background-color: black;
+}
+
+/* This is style for Footer part of Website */
+
+
+#footer-part{
+  background-color: #D7E1EC;
+  padding: 3% 5%;
+  color: #011936;
+}
+.aboutMe-section{
+  margin: 3%;
+}
+.contact-icon{
+  color: #011936;
+}
+.comment-area{
+  margin: 3%;
+}
+
+.email-input{
+  width: 100%;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+textarea{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+.opinion-submit{
+  text-align: center;
+  width: 100%;
+}
+.copyright-text{
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+  /* For mobile phones: */
+  div.centered-div{
+    text-align: center;
+    width: 120%;
+  }
+  .nav-link{
+    text-align: center;
+  }
+  .project-img{
+    height: 180px;
+  }
+
+}
+@media only screen and (max-width: 1200px) {
+  /* For mobile phones: */
+  .middle-link{
+    margin: 0 22%;
+  }
+
+}
+@media only screen and (max-width: 1100px) {
+  /* For mobile phones: */
+  .middle-link{
+    margin: 0 18%;
+  }
+
+}
